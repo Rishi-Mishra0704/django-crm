@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'website',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,9 @@ ROOT_URLCONF = 'crm.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / "./templates",
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,15 +78,14 @@ WSGI_APPLICATION = 'crm.wsgi.application'
 
 DATABASES = {
    'default': {
-       'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'pmbkaifk',
-       'USER': 'pmbkaifk',
-       'PASSWORD': 'VBr_Fth7OuuntxD0Fe3Pb3BP0xP7Yhae',
-       'HOST': 'suleiman.db.elephantsql.com',
+       'ENGINE': 'django.db.backends.postgresql',
+       'NAME': 'django_crm',
+       'USER': 'rishi',
+       'PASSWORD': '1111',
+       'HOST': 'localhost',
        'PORT': '5432',
    }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
