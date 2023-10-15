@@ -16,8 +16,12 @@
     <title>Django CRM</title>
   </head>
   <body>
+    {% include "navbar.html" %}
+    <div class="container">
+        <br/>
 
-    {% block content %}{% endblock %}
+        {% block content %}{% endblock %}
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
