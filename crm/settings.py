@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'crm.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'pmbkaifk',
-       'USER': 'pmbkaifk',
-       'PASSWORD': 'VBr_Fth7OuuntxD0Fe3Pb3BP0xP7Yhae',
-       'HOST': 'suleiman.db.elephantsql.com',
+       'NAME': 'frhdnyxc',
+       'USER': 'frhdnyxc',
+       'PASSWORD': '0soGK_6QQeGMs-S9ctfv-IHReEZu_OQF',
+       'HOST': 'floppy.db.elephantsql.com',
        'PORT': '5432',
    }
 }
